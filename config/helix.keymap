@@ -32,11 +32,11 @@ As such, those are in use within the default layer at this time.*/
  // |  SHIFT |   Z    |   X    |   C    |   V    |   B    |  LBKT  |                    |  RBKT  |   N    |   M    |   ,    |   .    |   /    |  RET   |
  // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
                      bindings = <
-       &kp ESC     &kp N1   &kp N2    &kp N3    &kp N4     &kp N5                                          &kp N6     &kp N7     &kp N8     &kp N9      &kp N0     &ext_power EP_TOG
-       &kp TAB     &kp V    &kp W     &kp O     &kp U      &kp J                                           &kp Q      &kp G      &kp L      &kp H       &kp F      &kp UP
-       &kp LALT    &kp C    &kp A     &kp E     &kp I      &kp M                                           &kp B      &kp T      &kp R      &kp N       &kp S      &kp DOWN
-       &kp LSHFT   &kp SQT  &kp Z     &kp X     &kp Y      &kp K    &kp DEL                    &kp PSCRN   &kp P      &kp D      &kp COMMA  &kp PERIOD  &kp MINUS  &mo ADJUST
-       &kp LCTRL   &kp LGUI &ext_power EP_TOG  &mo ADJUST  &mo LOWER  &kp BSPC  &kp DEL        &kp RET     &kp SPACE  &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
+       &kp TAB     &kp N1     &kp N2    &kp N3    &kp N4     &kp N5                                          &kp N6     &kp N7     &kp N8     &kp N9      &kp N0     &ext_power EP_TOG
+       &kp LGUI    &kp V      &kp W     &kp O     &kp U      &kp J                                           &kp Q      &kp G      &kp L      &kp H       &kp F      &kp UP
+       &kp LALT    &kp C      &kp A     &kp E     &kp I      &kp M                                           &kp B      &kp T      &kp R      &kp N       &kp S      &kp DOWN
+       &kp LSHFT   &kp SQT    &kp Z     &kp X     &kp Y      &kp K    &kp DEL                    &kp PSCRN   &kp P      &kp D      &kp COMMA  &kp PERIOD  &kp MINUS  &mo ADJUST
+       &kp LCTRL   &kp ESC    &mo ADJUST &mo RAISE &mo LOWER &kp BSPC   &kp DEL                  &kp RET     &kp SPACE  &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
                      >;
               };
               lower_layer {
