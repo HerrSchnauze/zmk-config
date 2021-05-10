@@ -19,7 +19,9 @@
 /* NOTE: At the time of the creation of this keymap, there are no specified codes for 'eisuu' and 'kana' input in ZMK.
 However, 'LANG1' and 'LANG2' are fully-functioning candidates for 'kana' and 'eisuu' input respectively.
 As such, those are in use within the default layer at this time.*/
-
+&mt {
+    tapping-term-ms = <300>;
+};
 / {
        keymap {
               compatible = "zmk,keymap";
@@ -36,7 +38,7 @@ As such, those are in use within the default layer at this time.*/
        &kp LGUI    &kp V      &kp W     &kp O     &kp U      &kp J                                           &kp Q      &kp G      &kp L      &kp H       &kp F      &kp UP
        &kp LALT    &kp C      &kp A     &kp E     &kp I      &kp M                                           &kp B      &kp T      &kp R      &kp N       &kp S      &kp DOWN
        &kp LSHFT   &kp SQT    &kp Y     &kp X     &kp K      &kp Z      &kp DEL                  &kp PSCRN   &kp MINUS  &kp P      &kp D      &kp COMMA   &kp PERIOD    &mo ADJUST
-       &kp LCTRL   &kp ESC    &mo ADJUST &mo RAISE &mo LOWER &kp BSPC   &kp DEL                  &kp RET     &kp SPACE  &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
+       &kp LCTRL   &kp ESC    &mo ADJUST &mo RAISE &mo LOWER &kp BSPC   &kp DEL                  &mt LSHFT RET     &kp SPACE  &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
                      >;
               };
               lower_layer {
