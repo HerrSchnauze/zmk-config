@@ -38,7 +38,7 @@ As such, those are in use within the default layer at this time.*/
        &kp LGUI    &kp V      &kp W     &kp O     &kp U      &kp J                                           &kp Q      &kp G      &kp L      &kp H       &kp F      &kp UP
        &kp LALT    &kp C      &kp A     &kp E     &kp I      &kp M                                           &kp B      &kp T      &kp R      &kp N       &kp S      &kp DOWN
        &kp LSHFT   &kp SQT    &kp Y     &kp X     &kp K      &kp Z      &kp DEL                  &kp PSCRN   &kp SLASH  &kp P      &kp D      &kp COMMA   &kp PERIOD    &mo ADJUST
-       &kp LCTRL   &kp ESC    &mo ADJUST &mo RAISE &mo LOWER &kp BSPC   &kp DEL                  &mt LSHFT RET     &kp SPACE  &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
+       &kp LCTRL   &kp ESC    &mo ADJUST &mo RAISE &mo LOWER &kp BSPC   &kp TAB                  &mt LSHFT RET     &kp SPACE  &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
                      >;
               };
               lower_layer {
