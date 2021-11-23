@@ -35,10 +35,10 @@ As such, those are in use within the default layer at this time.*/
  // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
                      bindings = <
        &kp ESC     &kp N1     &kp N2    &kp N3    &kp N4     &kp N5                                          &kp N6     &kp N7     &kp N8     &kp N9      &kp N0      &mt END HOME 
-       &kp LGUI    &kp BSLH   &kp Z     &kp W     &kp Y      &kp J                                           &kp Q      &kp B      &kp F      &kp K       &kp SLASH  &kp UP
+       &kp LGUI    &kp BSLH   &kp Z     &kp W     &kp Y      &kp J                                           &mt RA(Q) Q     &kp B      &kp F      &kp K       &kp SLASH  &kp UP
        &kp LALT    &kp C      &kp A     &kp E     &kp I      &kp U                                           &kp M      &kp T      &kp R      &kp N       &kp S      &kp DOWN
        &kp LSHFT   &kp V      &kp G     &kp H     &kp O      &kp X      &kp DEL                  &kp PSCRN   &kp J      &kp L      &kp D      &kp P       &kp COMMA   &kp PERIOD 
-       &kp LCTRL   &kp RET    &mo ADJUST &mo RAISE &mo LOWER &kp BSPC   &kp TAB                  &kp RET     &mt LSHFT SPACE  &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
+       &kp LCTRL   &kp RET    &mo ADJUST &mo RAISE &mo LOWER &kp BSPC   &kp TAB                  &mt LCTRL RET    &mt LSHFT SPACE  &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
                      >;
               };
               lower_layer {
@@ -50,7 +50,7 @@ As such, those are in use within the default layer at this time.*/
  // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
                      bindings = <
        &trans    &trans   &trans &trans   &trans   &trans                             &trans    &trans    &trans    &trans   &trans   &trans
-       &trans    &trans   &trans &trans &trans &trans                            &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR  &trans   &trans
+       &trans    &trans   &trans &trans &trans &trans                            &kp AMPS  &mt LS(ASTRK) ASTRK  &mt LS(LPAR) LPAR  &kp RPAR  &trans   &trans
        &trans    &trans   &kp SQT &trans   &trans   &kp LBKT                             &kp UNDER &kp PLUS  &kp LBRC &kp RBRC  &kp MINUS &kp PIPE
        &kp TILDE &kp EXCL &kp AT &kp BSLH &kp SEMI &kp PRCNT   &kp LPAR        &kp RPAR &trans    &trans    &trans    &trans    &trans  &trans
        &trans    &trans   &trans &trans   &trans   &trans    &trans          &trans   &trans    &trans    &trans    &trans   &kp HOME &kp END
@@ -64,11 +64,11 @@ As such, those are in use within the default layer at this time.*/
  // |       |  F7   |  F8   |  F9   |  F10  |  F11  |       |                    |       |  F12  |       | PSCRN | PG_DN | PG_UP |       |
  // |       |       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
                      bindings = <
-       &trans    &trans &trans &trans &trans  &trans                       &trans  &trans    &trans     &trans       &trans       &trans
-       &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4  &kp N5                       &kp N6  &kp N7    &kp N8     &kp N9       &kp N0       &kp DEL
-       &trans    &kp F1 &kp F2 &kp F3 &kp F4  &kp F5                       &kp F6  &kp MINUS &kp EQUAL  &kp LBKT     &kp RBKT     &kp BSLH
-       &trans    &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &trans        &trans &kp F12 &trans    &kp PSCRN  &kp PG_DN    &kp PG_UP    &trans
-       &trans    &trans &trans &trans &trans  &trans  &trans        &trans &trans  &trans    &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
+       &trans    &trans &trans &trans &trans  &trans                               &trans  &trans    &trans     &trans       &trans       &trans
+       &kp GRAVE &kp N1  &kp N2   &kp N3      &kp N4  &kp N5                       &kp N6  &kp N7    &kp N8     &kp N9       &kp N0       &kp DEL
+       &trans    &kp F13 &kp F14  &kp F15     &kp F16 &kp F17                      &kp F6  &kp MINUS &kp EQUAL  &kp LBKT     &kp RBKT     &kp BSLH
+       &trans    &kp F18 &kp F19  &kp F20     &kp F21 &kp F22  &trans        &trans &kp F12 &trans    &kp PSCRN  &kp PG_DN    &kp PG_UP    &trans
+       &trans    &trans  &trans   &trans      &trans  &trans  &trans                &trans &trans  &trans    &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
                      >;
               };
               adjust_layer {
