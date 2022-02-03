@@ -50,8 +50,8 @@ As such, those are in use within the default layer at this time.*/
  // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
                      bindings = <
        &trans    &trans   &trans &trans   &trans   &trans                             &trans    &trans    &trans    &trans   &trans   &trans
-       &trans    &trans   &trans &trans &trans &trans                            &kp AMPS  &mt LS(ASTRK) ASTRK  &mt LS(LPAR) LPAR  &kp RPAR  &trans   &trans
-       &trans    &trans   &kp SQT &trans   &trans   &kp LBKT                             &kp UNDER &kp PLUS  &kp LBRC &kp RBRC  &kp MINUS &kp PIPE
+       &trans    &trans   &trans &trans   &trans   &trans                             &kp AMPS  &kp RA(N7)    &kp RA(N0) &kp RPAR  &trans   &trans
+       &trans    &trans   &kp SQT &trans   &trans   &kp LBKT                             &kp UNDER  &kp ASTRK  &kp LPAR &kp RA(N8)     &kp RA(N9) &kp PIPE
        &kp TILDE &kp EXCL &kp AT &kp BSLH &kp SEMI &kp PRCNT   &kp LPAR        &kp RPAR &trans    &trans    &trans    &trans    &trans  &trans
        &trans    &trans   &trans &trans   &trans   &trans    &trans          &trans   &trans    &trans    &trans    &trans   &kp HOME &kp END
                      >;
