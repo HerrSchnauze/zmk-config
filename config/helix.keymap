@@ -36,7 +36,7 @@ As such, those are in use within the default layer at this time.*/
                      bindings = <
        &kp ESC     &kp N1     &kp N2    &kp N3    &kp N4     &kp N5                                          &kp N6     &kp N7     &kp N8     &kp N9      &kp N0      &mt END HOME 
        &kp LGUI    &kp BSLH   &kp Z     &kp W     &kp Y      &kp F9                                          &mt RA(Q) Q     &kp B      &kp F      &kp K       &kp SLASH  &kp UP
-       &kp LALT    &kp A      &kp E     &kp I     &kp O      &kp U                                           &kp M      &kp T      &kp R      &kp N       &kp S      &kp DOWN
+       &kp LALT    &kp O      &kp A      &kp E     &kp I     &kp U                                           &kp M      &kp T      &kp R      &kp N       &kp S      &kp DOWN
        &kp LSHFT   &kp V      &kp C     &kp G     &kp H      &kp X      &kp DEL                  &kp PSCRN   &kp J      &kp L      &kp D      &kp P       &kp COMMA   &kp PERIOD 
        &kp LCTRL   &kp RET    &mo ADJUST &mo RAISE &mo LOWER &kp BSPC   &kp TAB                  &mt LCTRL RET    &mt LSHFT SPACE  &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
                      >;
@@ -51,7 +51,7 @@ As such, those are in use within the default layer at this time.*/
                      bindings = <
        &trans    &trans   &trans &trans   &trans   &trans                             &trans    &trans    &trans    &trans   &trans   &trans
        &trans    &trans   &trans &trans   &trans   &trans                             &kp AMPS  &kp RA(N7)    &kp RA(N0) &kp RPAR  &trans   &trans
-       &trans    &trans   &kp SQT &trans   &trans   &kp LBKT                             &kp UNDER  &kp ASTRK  &kp LPAR &kp RA(N8)     &kp RA(N9) &kp PIPE
+       &trans    &kp SEMI   &kp SQT &trans   &trans   &kp LBKT                             &kp UNDER  &kp ASTRK  &kp LPAR &kp RA(N8)     &kp RA(N9) &kp PIPE
        &kp TILDE &kp EXCL &kp AT &kp BSLH &kp SEMI &kp PRCNT   &kp LPAR        &kp RPAR &trans    &trans    &trans    &trans    &trans  &trans
        &trans    &trans   &trans &trans   &trans   &trans    &trans          &trans   &trans    &trans    &trans    &trans   &kp HOME &kp END
                      >;
