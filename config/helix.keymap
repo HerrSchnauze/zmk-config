@@ -35,11 +35,11 @@ As such, those are in use within the default layer at this time.*/
  // |  SHIFT |   Z    |   X    |   C    |   V    |   B    |  LBKT  |                    |  RBKT  |   N    |   M    |   ,    |   .    |   /    |  RET   |
  // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
                      bindings = <
-       &kp ESC     &kp N1     &kp N2    &kp N3    &kp N4     &kp N5                                          &kp N6     &kp N7     &kp N8     &kp N9      &kp N0      &mt END HOME 
-       &kp LGUI    &kp BSLH   &kp Z     &kp W     &kp Y      &kp F9                                          &mt RA(Q) Q     &kp B      &kp F      &kp K       &kp SLASH  &kp UP
-       &kp LALT    &kp O      &kp A      &kp E     &kp I     &kp U                                           &kp M      &kp T      &kp R      &kp N       &kp S      &kp DOWN
-       &kp LSHFT   &kp V      &kp C     &kp G     &kp H      &kp X      &kp DEL                  &kp PSCRN   &kp J      &kp L      &kp D      &kp P       &kp COMMA   &kp PERIOD 
-       &kp LCTRL   &kp RET    &mo ADJUST &mo RAISE &kp BSPC &mt LSHFT SPACE    &kp TAB                  &mt LCTRL RET    &to 1   &mo RAISE  &mo LOWER  &kp RCTRL   &kp LEFT   &kp RIGHT
+       &kp ESC     &kp N1     &kp N2     &kp N3    &kp N4     &kp N5                                                    &kp N6     &kp N7     &kp N8     &kp N9      &kp N0      &mt END HOME 
+       &kp LGUI    &kp BSLH   &kp Z      &kp W     &kp Y      &kp F9                                                    &mt RA(Q) Q &kp B     &kp F      &kp K       &kp SLASH  &kp UP
+       &kp LALT    &kp O      &kp A      &kp E     &kp I      &kp U                                                     &kp M      &kp T      &kp R      &kp N       &kp S      &kp DOWN
+       &kp LSHFT   &kp V      &kp C      &kp G     &kp H      &kp X              &kp DEL                  &kp PSCRN     &kp J      &kp L      &kp D      &kp P       &kp COMMA   &kp PERIOD 
+       &kp LCTRL   &kp RET    &mo 3 &mo 2 &kp BSPC   &mt LSHFT SPACE    &kp TAB                  &mt LCTRL RET    &to 1   &mo 3      &mo 2      &kp RCTRL   &kp LEFT   &kp RIGHT
                      >;
               };
               lower_layer {
