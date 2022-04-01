@@ -21,12 +21,9 @@
 However, 'LANG1' and 'LANG2' are fully-functioning candidates for 'kana' and 'eisuu' input respectively.
 As such, those are in use within the default layer at this time.*/
 &mt {
-    tapping-term-ms = <250>;
+    tapping-term-ms = <350>;
 };
 
-&mlt {
-    tapping-term-ms = <550>;
-};
 
 / {            
        keymap {
@@ -42,7 +39,7 @@ As such, those are in use within the default layer at this time.*/
                      bindings = <
        &kp ESC     &kp N1     &kp N2     &kp N3       &kp N4        &kp N5                                                    &kp N6      &kp N7     &kp N8     &kp N9      &kp N0            &mt END HOME 
        &kp LGUI    &kp BSLH   &kp Z      &kp W        &kp Y         &kp F9                                                    &mt RA(Q) Q &kp B      &kp F      &kp K       &mt RBKT PERIOD   &kp UP
-       &kp LALT    &kp O      &kp A      &mlt LCTRL E &mlt LGUI I   &mlt LALT U                                               &kp M       &kp T      &kp R      &kp N       &kp S             &kp DOWN
+       &kp LALT    &kp O      &kp A      &mt LCTRL E &mt LGUI I   &mt LALT U                                               &kp M       &kp T      &kp R      &kp N       &kp S             &kp DOWN
        &kp LSHFT   &kp V      &kp C      &kp G        &kp H         &kp X              &kp DEL                  &kp PSCRN     &kp J       &kp L      &kp D      &kp P       &mt SLASH COMMA   &kp PERIOD 
        &kp LCTRL   &kp RET    &mo 3      &mo 2        &kp BSPC      &mt LSHFT SPACE    &kp TAB                  &mt LCTRL RET &to 1       &mo 3      &mo 2      &kp RCTRL   &kp LEFT          &kp RIGHT
                      >;
