@@ -23,7 +23,7 @@ As such, those are in use within the default layer at this time.*/
 &mt {
     tapping-term-ms = <350>;
 };
-&cmt {
+&mmv {
     tapping-term-ms = <550>;
 };
 
