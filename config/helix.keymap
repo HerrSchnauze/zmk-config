@@ -51,7 +51,7 @@
        &trans      &trans     &trans     &trans       &trans        &trans                                                  &kp AMPS    &kp RA(N7)  &kp RA(N0) &kp RPAR   &trans          &trans
        &trans      &kp SEMI   &kp SQT    &trans       &trans        &kp LBKT                                                &kp UNDER   &kp ASTRK  &kp LPAR   &kp RA(N8)  &kp RA(N9)      &kp PIPE
        &kp TILDE   &kp EXCL   &kp AT     &kp BSLH     &kp SEMI      &kp PRCNT          &kp LPAR                &kp RPAR     &trans      &trans     &kp LEFT   &kp RIGHT   &kp UP          &kp DOWN
-       &trans      &trans     &trans     &trans       &trans        &trans             &to 2                   &trans       &trans      &trans     &trans     &trans      &kp HOME        &kp END
+       &trans      &trans     &trans     &trans       &trans        &trans             &to 0                   &trans       &to 2       &trans     &trans     &trans      &kp HOME        &kp END
                      >;              };
               raise_layer {
                      bindings = <
